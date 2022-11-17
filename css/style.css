@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    font-size: 14px;
+    color: white;
+    background-color: black; 
+}
+
+header {
+    height: 50px;
+    text-align: right;
+}
+
+header button {
+    margin: 5px;
+    color:lightgray;
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+main .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.botton-bar {
+    height: 100px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}

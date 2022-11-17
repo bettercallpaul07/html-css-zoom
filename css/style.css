@@ -5,8 +5,7 @@
 }
 
 main {
-    height: 100%;
-
+   height: calc(100vh-150px);
 }
 
 
@@ -29,7 +28,6 @@ header button {
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 
@@ -69,7 +67,8 @@ main .gallery {
 }
 
 
-.leftbotton-bar, .centerbotton-bar, .rightbottonbar {
+
+.leftbotton-bar, .centerbotton-bar, .rightbotton-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,9 +80,3 @@ main .gallery {
     opacity: 0.5;
     color: red
 }
-
-
-
-
-
-

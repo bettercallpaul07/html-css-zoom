@@ -63,13 +63,16 @@ header .button-style {
     height: 100px;
     background-color: #222;
     display: flex;
-}
 
+}
 
 
 .leftbotton-bar {
     width: 25%;
-    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 } 
 
@@ -77,16 +80,18 @@ header .button-style {
 
     width: 50%;
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .rightbotton-bar {
     width: 25%;
     text-align: right;
-    height: 100px;
-
-
-
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
 }
 
 

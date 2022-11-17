@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 100%;
+
+}
+
 
 body {
     font-size: 14px;
@@ -66,12 +71,10 @@ main .gallery {
 
 .leftbotton-bar, .centerbotton-bar, .rightbottonbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
 }
-
-
 
 
 .end-button {

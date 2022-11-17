@@ -20,15 +20,34 @@ header button {
     margin: 5px;
     color:lightgray;
     background-color: #4a4a4a;
+    border: none;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+
+}
+
+
+.guest-user {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    padding: 5px;
+}
+
+.guest-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 5px;
 }
 
 
 
-
 main .gallery {
+    margin: 50px;
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -41,5 +60,27 @@ main .gallery {
     height: 100px;
     background-color: #222;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
+
+
+.leftbotton-bar, .centerbotton-bar, .rightbottonbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+
+
+.end-button {
+    opacity: 0.5;
+    color: red
+}
+
+
+
+
+
+
